@@ -7,9 +7,9 @@ import ArticleList from "./ArticleList";
 function App() {
   return (
     <div className="App">
-      <Header blogHeader={blogData}/>
-      <About blogAbout= {blogData}/>
-      <ArticleList blogArticleList = {blogData}/>
+      <Header name = {blogData.name}/>
+      <About about= {blogData.about} image= {blogData.image}/>
+      <ArticleList posts = {blogData.posts}/>
     </div>
     
   );

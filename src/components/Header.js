@@ -2,8 +2,8 @@ import React from "react"
 
 
 
-function Header (blogHeader) {
-    const {name} = blogHeader
+function Header ({name}) {
+   
       return (
         <header>
             <h1>{name}</h1>
